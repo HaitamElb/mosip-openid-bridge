@@ -223,6 +223,18 @@
 		<sonar.skip>true</sonar.skip>
 	</properties>
 	<dependencies>
+<!--		<dependency>-->
+<!--			<groupId>io.mosip.kernel</groupId>-->
+<!--			<artifactId>kernel-auth-adapter</artifactId>-->
+<!--			<version>1.1.5.5-P2</version>-->
+<!--			<scope>system</scope>-->
+<!--			<systemPath>${basedir}/libs/kernel-auth-adapter-1.1.5.5-P2.jar</systemPath>-->
+<!--		</dependency>-->
+		<dependency>
+			<groupId>io.mosip.kernel</groupId>
+			<artifactId>kernel-auth-adapter</artifactId>
+			<version>1.1.5.5</version>
+		</dependency>
 		<dependency>
 			<groupId>io.mosip.kernel</groupId>
 			<artifactId>kernel-core</artifactId>

@@ -558,7 +558,7 @@ public class AuthServiceImpl implements AuthService {
 		String realm = tokenValidator.getKeycloakRealm(token);
 		ResponseEntity<String> response = null;
 		MosipUserDto mosipUserDto = null;
-		StringBuilder urlBuilder = new StringBuilder().append(keycloakBaseURL).append("/auth/realms/").append(realm).append("/protocol/openid-connect/userinfo");
+		StringBuilder urlBuilder = new StringBuilder().append(keycloakBaseURL).append("/realms/").append(realm).append("/protocol/openid-connect/userinfo");
 		UriComponentsBuilder uriComponentsBuilder = UriComponentsBuilder.fromUriString(urlBuilder.toString());
 		LOGGER.info("validate token request to " + uriComponentsBuilder.toUriString() );
 
